@@ -1,0 +1,19 @@
+{
+  "name": "pepejam",
+  "version": "1.0.0",
+  "description": "bruh",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main.js"
+  },
+  "author": "Adam Sarhan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^14.2.0",
+    "reddit-image-fetcher": "^2.0.9",
+    "wikijs": "^6.3.2",
+    "wikipedia": "^1.1.6"
+  }
+}
