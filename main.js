@@ -21,7 +21,7 @@ prefix = process.env.PREFIX;
 appId = 'TWJT4P-GP6Q4UTQ7X';
 
 const help = new MessageEmbed()
-    .setAuthor({ text: 'pepejam moment' })
+    .setAuthor('pepejam moment')
     .setColor('#0099ff')
     .setTitle('Help')
     .addFields(
@@ -31,7 +31,7 @@ const help = new MessageEmbed()
     )
 
 const educationHelp = new MessageEmbed()
-    .setAuthor({ text: 'pepejam moment' })
+    .setAuthor('pepejam moment')
     .setColor('#0099ff')
     .setTitle('Education')
     .addFields(
@@ -39,7 +39,7 @@ const educationHelp = new MessageEmbed()
         { name: ':brain:**Wolfram Alpha**', value: 'Type `pj search wa <query>` to search for a query on Wolfram Alpha' }
     )
 const funnyhelp = new MessageEmbed()
-    .setAuthor({ text: 'pepejam moment' })
+    .setAuthor('pepejam moment')
     .setColor('#0099ff')
     .setTitle('Funny')
     .addFields(
@@ -47,7 +47,7 @@ const funnyhelp = new MessageEmbed()
     )
 
 const moneyhelp = new MessageEmbed()
-    .setAuthor({ text: 'pepejam moment' })
+    .setAuthor('pepejam moment')
     .setColor('#0099ff')
     .setTitle('Memes')
     .addFields(
